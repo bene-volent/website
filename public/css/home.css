@@ -41,7 +41,7 @@ body{
     }
     
 }
-@media (max-width:600px) {
+@media (max-width:620px) {
     .text-1_8x1{
         font-size: 1.8em;
     }
@@ -70,7 +70,7 @@ body{
 
 }
 
-@media (max-width:575px) {
+@media (max-width:585px) {
     #nav-bar{
         width: 100%;
         margin-top: 10px;
