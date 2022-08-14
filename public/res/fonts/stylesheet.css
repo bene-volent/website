@@ -1,0 +1,68 @@
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('robotocondensed-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-bolditalic-webfont.woff2') format('woff2'),
+         url('robotocondensed-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-italic-webfont.woff2') format('woff2'),
+         url('robotocondensed-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-light-webfont.woff2') format('woff2'),
+         url('robotocondensed-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-lightitalic-webfont.woff2') format('woff2'),
+         url('robotocondensed-lightitalic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: RBTO;
+    src: url('robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
