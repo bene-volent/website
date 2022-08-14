@@ -45,9 +45,7 @@ body{
     .text-1_8x1{
         font-size: 1.8em;
     }
-    #dp-title{
-        display: none;
-    }
+
     .tp-text{
         font-size: 1.4em!important;
     }
@@ -70,7 +68,7 @@ body{
 
 }
 
-@media (max-width:585px) {
+@media (max-width:620px) {
     #nav-bar{
         width: 100%;
         margin-top: 10px;
@@ -86,6 +84,13 @@ body{
         float:right;
     }
     
+}
+
+#home-dp{
+    transition: all 0.1s ease-in;
+}
+#home-dp:hover{
+    transform: scale(1.2);
 }
 
 #profile-pic{
