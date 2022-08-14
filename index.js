@@ -8,7 +8,7 @@ app.use(express.static('./public'))
 const port = process.env.PORT||3000
 
 app.get('/', async (req, res) => {
-    readFile('./public/html/home.html','utf-8',(err,html)=>{
+    readFile('./public/html/index.html','utf-8',(err,html)=>{
         if (err) {
             res.status(500).send("Server Error")
             console.log(err,html);
