@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="../css/home.css">
     <script>
-        alert('Work In Progress!');
+        // alert('Work In Progress!');
     </script>
 </head>
 
@@ -45,16 +45,48 @@
         </section>
 
         <section id="about" class="panel_5x5 white_panel tp-section" >
-            <div class="two-box-panel">
-                <div class="text-4x1 flex-mode center-all text-2_5x1 font-def tp-heading">About</div>
+            <div class="two-box-panel head-text">
+                <div class="text-4x1 flex-mode center-all text-2_5x1 tp-heading font-def tp-heading-right">About</div>
                 <div class="no-bold flex-mode center-all font-def tp-text" style="font-size:1.3em;">
-                    Hello, I'm Raghav, also called Bene, a passionate freelance programmer 
-                    who may be able to help in your programming adventure. 
-                    Currently I am learning to create Web applications and Game Engine Development which will my main focus.
-                    So, if you need any work in those fields in the future, contact me.
+                    Hello, I'm Raghav, also called Bene, a passionate freelance programmer.
+                    I am 22 years old. I work from J&K, India. I have passion for programming and creating graphics and illustration.
+                    I like to make Games and Web apps.
+                    
                 </div>
             </div>
         </section>
+        <div id="separator"></div>
+        <section id="contacts" class="panel_5x5 white_panel tp-section">
+            <div class="two-box-panel text-head">
+                <div id='contact-box' class="no-bold flex-mode font-def tp-text-no-zoom" style="font-size:1.3em;">
+                    <form action="/" id="contact-me">
+                        <div class="input-label">
+                            <label for="name" class="font-def" >Name</label><br>
+                            <input type="text" name="name" id="name" pattern="[a-zA-z]+\s?" class="input-bars font-def">
+                        </div>
+                        <div class="input-label">
+                            <label for="email" class="font-def" >Email</label><br>
+                            <input type="email" name="email" id="email" class="input-bars font-def">
+                        </div>
+                        <div class="input-label">
+                            <label for="message" class="font-def" >Message</label><br>
+                            <textarea name="message" id="message"form="contact-me" class="input-bars font-def" style="font-weight: lighter;"></textarea>
+                         </div>
+                        
+                        <input type="submit" value="Hit me up">
+                        </form>
+                </div>
+                <div class="text-4x1 flex-mode center-all text-2_5x1 font-def tp-heading tp-heading-left">Contact
+                    <div  id="mail" class="flex-mode center-all no-bold font-def tp-heading tp-heading-left">
+                        <img src="../res/img/me-mail.png" alt="" width="20px">
+                        <a href="mailto:raghvme1@gmail.com"style="font-size: 1rem;padding-left: 10px;text-decoration: none;color: black;">raghvme1@gmail.com</a>
+                    </div>
+                
+                </div>
+
+            </div>
+        </section>
+        
         
     </main>
 </body>
