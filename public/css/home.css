@@ -210,7 +210,7 @@ body{
     column-gap: 1px;
     cursor: default;
     align-items: center;
-    
+    width: 100%;
 }
 
 .text-head{
