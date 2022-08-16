@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head >
+<head>
     <meta charset="UTF-8" />
 
     <title>Benevolent / Raghav</title>
-    
+
     <link rel="stylesheet" href="../css/home.css">
     <script>
-        // alert('Work In Progress!');
+        alert(navigator.userAgent);
     </script>
 </head>
 
-<body >
+<body>
     <header>
         <div id="header-div">
             <div id="header" class="font-def " style="font-size:1.3em; color: white;">
-                
+
                 <a href="#header" style="color: white;text-decoration:none;">
                     <div id="home-dp">
 
-                    <img src="../res/img/profile.png" id="profile-pic">
-                    <span id="dp-title">Raghav</span> 
-                </div></a>
+                        <img src="../res/img/profile.png" id="profile-pic">
+                        <span id="dp-title">Raghav</span>
+                    </div>
+                </a>
                 <nav id="nav-bar">
                     <a href="#about" class="nav-links">About</a>
                     | <a href="https://www.linkedin.com/in/raghv-r/" target="_blank" class="nav-links">LinkedIn</a>
@@ -44,14 +45,15 @@
             </h1>
         </section>
 
-        <section id="about" class="panel_5x5 white_panel tp-section" >
+        <section id="about" class="panel_5x5 white_panel tp-section">
             <div class="two-box-panel head-text">
                 <div class="text-4x1 flex-mode center-all text-2_5x1 tp-heading font-def tp-heading-right">About</div>
                 <div class="no-bold flex-mode center-all font-def tp-text" style="font-size:1.3em;">
                     Hello, I'm Raghav, also called Bene, a passionate freelance programmer.
-                    I am 22 years old. I work from J&K, India. I have passion for programming and creating graphics and illustration.
+                    I am 22 years old. I work from J&K, India. I have passion for programming and creating graphics and
+                    illustration.
                     I like to make Games and Web apps.
-                    
+
                 </div>
             </div>
         </section>
@@ -59,35 +61,50 @@
         <section id="contacts" class="panel_5x5 white_panel tp-section">
             <div class="two-box-panel text-head">
                 <div id='contact-box' class="no-bold flex-mode font-def tp-text-no-zoom" style="font-size:1.3em;">
-                    <form action="/" id="contact-me">
+                    <form action="https://getform.io/f/194b6499-4a4a-4e0f-951e-efddae6e6777" method="POST"
+                        id="contact-me" target="_blank">
+
+                        <!-- Honey Pot -->
+                        <input type="hidden" name="_honeypot">
                         <div class="input-label">
-                            <label for="name" class="font-def" >Name</label><br>
-                            <input type="text" name="name" id="name" pattern="[a-zA-z]+\s?" class="input-bars font-def">
+                            <label for="name" class="font-def">Name</label><br>
+                            <input type="text" name="name" required id="name" pattern="[a-zA-z]+\s?"
+                                class="input-bars font-def">
                         </div>
                         <div class="input-label">
-                            <label for="email" class="font-def" >Email</label><br>
-                            <input type="email" name="email" id="email" class="input-bars font-def">
+                            <label for="email" class="font-def">Email</label><br>
+                            <input type="email" name="email" required id="email" class="input-bars font-def">
                         </div>
                         <div class="input-label">
-                            <label for="message" class="font-def" >Message</label><br>
-                            <textarea name="message" id="message"form="contact-me" class="input-bars font-def" style="font-weight: lighter;"></textarea>
-                         </div>
-                        
-                        <input type="submit" value="Hit me up">
-                        </form>
+                            <label for="subject" class="font-def">Subject</label><br>
+                            <input type="text" maxlength="75" name="subject" required id="subject"
+                                class="input-bars font-def">
+                        </div>
+                        <div class="input-label">
+                            <label for="message" class="font-def">Message</label><br>
+                            <textarea name="message" minlength="20" rows="5" id="message" form="contact-me"
+                                class="input-bars font-def"
+                                style="font-weight: lighter; font-size: 0.75em ;"></textarea>
+                        </div>
+                        <div id="submit-button">
+                            <button type="submit" form="contact-me" value="Submit">Hit me up</button>
+                        </div>
+                    </form>
+
                 </div>
                 <div class="text-4x1 flex-mode center-all text-2_5x1 font-def tp-heading tp-heading-left">Contact
-                    <div  id="mail" class="flex-mode center-all no-bold font-def tp-heading tp-heading-left">
+                    <div id="mail" class="flex-mode center-all no-bold font-def tp-heading tp-heading-left">
                         <img src="../res/img/me-mail.png" alt="" width="20px">
-                        <a href="mailto:raghvme1@gmail.com"style="font-size: 1rem;padding-left: 10px;text-decoration: none;color: black;">raghvme1@gmail.com</a>
+                        <a href="mailto:raghvme1@gmail.com"
+                            style="font-size: 1rem;padding-left: 10px;text-decoration: none;color: black;">raghvme1@gmail.com</a>
                     </div>
-                
+
                 </div>
 
             </div>
         </section>
-        
-        
+
+
     </main>
 </body>
 
