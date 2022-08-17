@@ -19,5 +19,8 @@ app.get('/', async (req, res) => {
     })
     
 })
+app.get('*', function(req, res){
+  res.status(404).send('<h1>What ????</h1>');
+});
 
 app.listen(port, () => console.log(`Port running on https://localhost:${port}`))
